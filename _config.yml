@@ -1,0 +1,8 @@
+title: Finite element seminar
+author: Ed Bueler
+email: elbueler@alaska.edu
+github_username: bueler
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+theme: jekyll-theme-slate
