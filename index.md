@@ -16,24 +16,24 @@ Credits: 1.0, but **non-credit attendance is also welcomed**.
 
 ## content
 
-FIXME
+My plan is to take the lead on this seminar, and do most of the lecturing and/or workshop-style leading.  My goal is to teach the practical finite element method through actual computations using [Firedrake](https://www.firedrakeproject.org/).  I plan to mix in enough theory to make the code make sense.  (In particular, the goal is definitely _not_ to prove systematically that the finite element method converges for certain problems.)  The basic scalar problems I have in mind for solving by this method are the [Poisson equation](https://en.wikipedia.org/wiki/Poisson%27s_equation), some [p-Laplacian](https://en.wikipedia.org/wiki/P-Laplacian) equations, and the [advection-diffusion equation](https://en.wikipedia.org/wiki/Convection%E2%80%93diffusion_equation).  The goal is to also look at time-dependent and vector problems, including the [Stokes equations for fluids](https://en.wikipedia.org/wiki/Stokes_flow), and the [obstacle problem](https://en.wikipedia.org/wiki/Obstacle_problem).
 
-## <a id="schedule"></a> topics/schedule
+## <a id="schedule"></a> topics on a highly-speculative schedule
 
 | Date   | Topic               |
 |--------|---------------------|
-| 18 Jan | FIXME               |
-| 25 Jan |                     |
-|  1 Feb |                     |
-|  8 Feb |                     |
-| 15 Feb |                     |
-| 22 Feb |                     |
-| 29 Feb |                     |
-|  7 Mar |                     |
+| 18 Jan | laptop day: install Firedrake and solve Poisson |
+| 25 Jan | theory for the Poisson equation |
+|  1 Feb | element types: P_k and quadrilaterals |
+|  8 Feb | practical meshing |
+| 15 Feb | performance for the Poisson equation |
+| 22 Feb | advection-diffusion: CG is imperfect |
+| 29 Feb | DG? |
+|  7 Mar | Stokes equation |
 | 14 Mar | _Spring Break_      |
-| 21 Mar |                     |
-| 28 Mar |                     |
-|  4 Apr |                     |
-| 11 Apr |                     |
-| 18 Apr |                     |
-| 25 Apr |                     |
+| 21 Mar | obstacle problem |
+| 28 Mar | _student demo/presentation_ |
+|  4 Apr | _student demo/presentation_ |
+| 11 Apr | _student demo/presentation_ |
+| 18 Apr | _student demo/presentation_ |
+| 25 Apr | _student demo/presentation_ |
