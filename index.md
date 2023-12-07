@@ -10,7 +10,7 @@ This is the page of **Math 692 Graduate Seminar: Finite elements** (CRN 35370) i
 
 Organizer/Instructor: [Ed Bueler](http://bueler.github.io/), [elbueler@alaska.edu](mailto:elbueler@alaska.edu).
 
-Time and place: Thursdays 3:30-4:30pm, Chapman 206
+Time and place: Thursdays 3:30-4:30pm, Chapman 206.  Also, we will have a Zoom link ... when I get around to it.  (Email me for it?)  But physical presence is preferred if you are on campus!
 
 Credits: 1.0, but **non-credit attendance is also welcomed**.
 
