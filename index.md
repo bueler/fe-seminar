@@ -14,6 +14,11 @@ Time and place: Thursdays 3:30-4:30pm, Chapman 206.  Please email me for the Zoo
 
 Credits: 1.0, but **non-credit attendance is also welcomed**.
 
+## guiding principles of the seminar
+
+1. show up
+2. try stuff
+
 ## content
 
 My plan is to take the lead on this seminar, and do most of the lecturing at the start.  Then to lead workshop style, or to encourage student presentations, as the semester goes on.  My goal is to teach the practical finite element method, through actual computations using [Firedrake](https://www.firedrakeproject.org/), in the first 6 or so weeks or so, and then branch out.  I plan to mix in enough theory to make the code make sense.  The goal is definitely _not_ to prove systematically that the finite element method converges for certain problems.
