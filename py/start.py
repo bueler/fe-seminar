@@ -23,6 +23,7 @@ except:
 
 try:
   fig, axes = plt.subplots()
+  # possibly add here:  from firedrake.pyplot import tripcolor
   colors = tripcolor(f, axes=axes)
   fig.colorbar(colors)
   plt.show()
