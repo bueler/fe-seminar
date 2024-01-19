@@ -25,7 +25,7 @@ The basic scalar problems I have in mind are the [Poisson equation](https://en.w
 
 ## <a id="installation"></a> installation advice
 
-<i>Thanks Stefano!</i>
+<i>Thanks Stefano!</i>  If the advice below is not enough, you might go to [Firedrake's installation debugging flowchart](https://www.firedrakeproject.org/download.html#debugging-install-problems).
 
 ### Firedrake on Google Colab
 
