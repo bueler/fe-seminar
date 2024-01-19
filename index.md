@@ -45,7 +45,7 @@ The basic scalar problems I have in mind are the [Poisson equation](https://en.w
 
 ### Firedrake on Windows
  - For now Windows support requires the use of Windows Subsystem for Linux (WSL)
- - https://github.com/firedrakeproject/firedrake/wiki/Installing-on-Windows-Subsystem-for-Linux seems to be the most up to date guide for getting this setup.
+ - [github.com/firedrakeproject/firedrake/wiki/Installing-on-Windows-Subsystem-for-Linux](https://github.com/firedrakeproject/firedrake/wiki/Installing-on-Windows-Subsystem-for-Linux) seems to be the most up to date guide for getting this setup.
 
 ## <a id="schedule"></a> topics (speculative schedule)
 
