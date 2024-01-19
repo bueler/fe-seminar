@@ -12,7 +12,7 @@ Time and place: Thursdays 3:30-4:30pm, Chapman 206.  Please email me for the Zoo
 
 Credits: 1.0, but **non-credit attendance is also welcomed**.
 
-## guiding principles of the seminar
+## guiding principles
 
 1. show up
 2. try stuff
