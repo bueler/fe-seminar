@@ -29,15 +29,14 @@ The basic scalar problems I have in mind are the [Poisson equation](https://en.w
 
 ### Firedrake on Google Colab
 
-1. Navigate to [fem-on-colab.github.io](https://fem-on-colab.github.io/)
-2. Click on the [Packages tab](https://fem-on-colab.github.io/packages.html)
-3. Scroll down to firedrake, and copy the block of Python under "Real Mode".
-4. Go to Google colab at [https://colab.research.google.com/](https://colab.research.google.com/)
-5. In the pop-up window choose "+ New notebook".
-6. Paste the block of Python into the first cell.
-7. Hit shift-enter.  Stuff will be generated. After about a minute the spinny thing should stop.
-8. Into the next cell type `from firedrake import *` and shift-enter.  This should give no warnings or errors.  Look for a green checkmark!  You have Firedrake!
-9. As a further test and demo, copying my `start.py` script from [https://raw.githubusercontent.com/bueler/fe-seminar/main/py/start.py](https://raw.githubusercontent.com/bueler/fe-seminar/main/py/start.py) into a cell and shift-enter should cause no warnings or errors, and it should produce a nice figure!
+1. Navigate to [fem-on-colab.github.io](https://fem-on-colab.github.io/) and choose the [Packages tab](https://fem-on-colab.github.io/packages.html)
+2. Scroll down to firedrake.  Copy the block of Python under "Real Mode".
+3. Go to Google colab at [https://colab.research.google.com/](https://colab.research.google.com/)
+4. In the pop-up window choose "+ New notebook".
+4. Paste the block of Python into the first cell.
+6. Hit shift-enter.  Stuff will be generated. After about a minute the spinny thing should stop.
+7. Into the next cell type `from firedrake import *` and shift-enter.  This should give no warnings or errors.  Look for a green checkmark!  You have Firedrake!
+8. As a further test and demo, copying my `start.py` script from [https://raw.githubusercontent.com/bueler/fe-seminar/main/py/start.py](https://raw.githubusercontent.com/bueler/fe-seminar/main/py/start.py) into a cell and shift-enter should cause no warnings or errors, and it should produce a nice figure!
 
 ### Firedrake on Linux/MacOS
  - For Linux and MacOS users simply follow the instructions outlined on https://www.firedrakeproject.org/download.html
