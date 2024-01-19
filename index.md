@@ -27,9 +27,9 @@ The basic scalar problems I have in mind are the [Poisson equation](https://en.w
 
 ## <a id="schedule"></a> topics (speculative schedule)
 
-| Date   | Topic               |
-|--------|---------------------|
-| 18 Jan | laptop day: install [Firedrake](https://www.firedrakeproject.org/) and solve Poisson |
+| Date   | Topic | Slides |
+|--------|-------|--------|
+| 18 Jan | laptop day: install [Firedrake](https://www.firedrakeproject.org/) and solve Poisson | [slides](slides/18jan.pdf)
 | 25 Jan | theory for the Poisson equation |
 |  1 Feb | element types: P_k and quadrilaterals |
 |  8 Feb | practical meshing |
