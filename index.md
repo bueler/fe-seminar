@@ -6,6 +6,8 @@ This is the page of **Math 692 Graduate Seminar: Finite elements** (CRN 35370) i
 
 [Firedrake installation advice is below.](#installation)
 
+The [Github repo for this website](https://github.com/bueler/fe-seminar) has seminar example codes in the `py/` directory.
+
 [A schedule of topics is at the bottom.](#schedule)  This schedule is subject to change!
 
 Organizer/Instructor: [Ed Bueler](http://bueler.github.io/), [elbueler@alaska.edu](mailto:elbueler@alaska.edu).
