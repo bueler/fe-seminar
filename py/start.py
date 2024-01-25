@@ -12,15 +12,14 @@ x, y = SpatialCoordinate(mesh)
 f.interpolate((1+8*pi*pi)*cos(x*pi*2)*cos(y*pi*2))
 f.rename("f(x,y)")
 
-print("writing f(x,y) to start.pvd")
-File("start.pvd").write(f)
+print("writing f(x,y) to result.pvd and result/")
+File("result.pvd").write(f)
 
-print("ploting f(x,y) in matplotlib figure")
+print("plotting f(x,y) in matplotlib figure")
 try:
   import matplotlib.pyplot as plt
 except:
   warning("Matplotlib not imported")
-
 try:
   fig, axes = plt.subplots()
   from firedrake.pyplot import tripcolor
