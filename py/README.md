@@ -26,6 +26,6 @@ To clean up the directory do
 
         (firedrake) $ make clean
 
-## weekN/ subdirectories
+## DATE/ subdirectories
 
-See the slides for the given week on the table at [the seminar website](https://bueler.github.io/fe-seminar/).
+See the slides for the given week/date on the table at [the seminar website](https://bueler.github.io/fe-seminar/).

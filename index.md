@@ -6,7 +6,7 @@ This is the page of **Math 692 Graduate Seminar: Finite elements** (CRN 35370) i
 
 [Firedrake installation advice is below.](#installation)
 
-[A schedule of topics is at the bottom.](#schedule)
+[A schedule of topics is at the bottom.](#schedule)  This schedule is subject to change!
 
 Organizer/Instructor: [Ed Bueler](http://bueler.github.io/), [elbueler@alaska.edu](mailto:elbueler@alaska.edu).
 
@@ -49,21 +49,21 @@ The basic scalar problems I have in mind are the [Poisson equation](https://en.w
  - For now Windows support requires the use of Windows Subsystem for Linux (WSL)
  - [github.com/firedrakeproject/firedrake/wiki/Installing-on-Windows-Subsystem-for-Linux](https://github.com/firedrakeproject/firedrake/wiki/Installing-on-Windows-Subsystem-for-Linux) seems to be the most up to date guide for getting this setup.
 
-## <a id="schedule"></a> topics (speculative schedule)
+## <a id="schedule"></a> topics (schedule)
 
 | Date   | Topic | Slides |
 |--------|-------|--------|
-| 18 Jan | laptop day: install [Firedrake](https://www.firedrakeproject.org/) and solve Poisson | [slides](slides/18jan.pdf)
-| 25 Jan | theory for the Poisson equation |
-|  1 Feb | element types: P_k and quadrilaterals |
-|  8 Feb | practical meshing |
-| 15 Feb | performance for the Poisson equation |
+| 18 Jan | laptop day: install Firedrake, start Poisson | [slides](slides/18jan.pdf)
+| 25 Jan | Poisson equation solver |
+|  1 Feb | finite element theory basics |
+|  8 Feb | meshes & elements: P_k, Q_k, Gmsh, Paraview |
+| 15 Feb | fast solvers for Poisson |
 | 22 Feb | advection-diffusion: CG is imperfect |
 | 29 Feb | DG? |
-|  7 Mar | Stokes equation |
-| 14 Mar | _Spring Break_      |
-| 21 Mar | obstacle problem |
-| 28 Mar | _student demo/presentation_ |
+|  7 Mar | Stokes equation? |
+| 14 Mar | _Spring Break_ |
+| 21 Mar | obstacle problem? |
+| 28 Mar | time-dependent problems? |
 |  4 Apr | _student demo/presentation_ |
 | 11 Apr | _student demo/presentation_ |
 | 18 Apr | _student demo/presentation_ |
