@@ -4,6 +4,7 @@
 
 from firedrake import *
 mesh = UnitSquareMesh(10, 10)
+#mesh = UnitDiskMesh(2)
 
 V = FunctionSpace(mesh, "CG", 1)
 
