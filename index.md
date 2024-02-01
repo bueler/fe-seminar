@@ -53,8 +53,8 @@ The basic scalar problems I have in mind are the [Poisson equation](https://en.w
 
 ## <a id="schedule"></a> topics (schedule)
 
-| Date   | Topic | Slides |
-|--------|-------|--------|
+| Date   | Topic | Links |
+|--------|-------|-------|
 | 18 Jan | laptop day: install Firedrake, start Poisson | [slides](slides/18jan.pdf)
 | 25 Jan | Poisson equation examples | [slide](py/25jan/poisson.pdf) [code](https://github.com/bueler/fe-seminar/tree/main/py/25jan)
 |  1 Feb | verification, assembly, errors |
