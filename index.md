@@ -58,7 +58,7 @@ The basic scalar problems I have in mind are the [Poisson equation](https://en.w
 | 18 Jan | laptop day: install Firedrake, start Poisson | [slides](slides/18jan.pdf)
 | 25 Jan | Poisson equation examples, Paraview | [slide](py/25jan/poisson.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/25jan)
 |  1 Feb | verification, assembly, errors | [slides](slides/1feb.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/1feb)
-|  8 Feb | meshes & elements: P_k, Q_k, Gmsh |
+|  8 Feb | meshes & elements: Gmsh, P_k, Neumann | [slides](https://github.com/bueler/fe-seminar/tree/main/py/8feb) | [code](https://github.com/bueler/fe-seminar/tree/main/py/8feb)
 | 15 Feb | fast solvers for Poisson |
 | 22 Feb | advection-diffusion: CG is imperfect |
 | 29 Feb | DG? |
