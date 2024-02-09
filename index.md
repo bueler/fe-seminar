@@ -59,10 +59,10 @@ The basic scalar problems I have in mind are the [Poisson equation](https://en.w
 | 25 Jan | Poisson equation examples, Paraview | [slide](py/25jan/poisson.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/25jan)
 |  1 Feb | verification, assembly, errors | [slides](slides/1feb.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/1feb)
 |  8 Feb | meshes & elements: Gmsh, P_k, Neumann | [slides](slides/8feb.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/8feb)
-| 15 Feb | fast solvers for Poisson |
-| 22 Feb | advection-diffusion: CG is imperfect |
-| 29 Feb | DG? |
-|  7 Mar | Stokes equation? |
+| 15 Feb | advection-diffusion problems |
+| 22 Feb | DG? |
+| 29 Feb | Stokes equations? |
+|  7 Mar | fast solvers for Poisson? |
 | 14 Mar | _Spring Break_ |
 | 21 Mar | obstacle problem? |
 | 28 Mar | time-dependent problems? |
