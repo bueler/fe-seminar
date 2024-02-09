@@ -35,8 +35,8 @@ f = Constant(0.0)
 
 # nonhomogeneous Neumann term goes in weak form
 # gN = [put optional boundary heating formula here]
-gN = Constant(-10.0)
-F = ( dot(grad(u),grad(v)) - f * v ) * dx + gN * v * ds
+gN = Constant(10.0)
+F = ( dot(grad(u),grad(v)) - f * v ) * dx - gN * v * ds
 
 # explicit: part of the boundary is Dirichlet
 exterior = (41,)  # see mesh.geo for this boundary id
