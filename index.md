@@ -60,12 +60,12 @@ The basic scalar problems I have in mind are the [Poisson equation](https://en.w
 |  1 Feb | verification, assembly, errors | [slides](slides/1feb.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/1feb)
 |  8 Feb | meshes & elements: Gmsh, P_k, Neumann | [slides](slides/8feb.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/8feb)
 | 15 Feb | Stokes equations for glaciers | [slides](https://github.com/bueler/stokes-ice-tutorial/blob/main/slides.pdf) | [code](https://github.com/bueler/stokes-ice-tutorial)
-| 22 Feb | advection-diffusion problems and DG? |
-| 29 Feb | time-dependent problems? |
+| 22 Feb | CANCELLED |
+| 29 Feb | time-stepping |
 |  7 Mar | fast solvers for Poisson? |
 | 14 Mar | _Spring Break_ |
 | 21 Mar | obstacle problem? |
-| 28 Mar |  |
+| 28 Mar | advection-diffusion problems and DG? |
 |  4 Apr | _student demo/presentation_ |
 | 11 Apr | _student demo/presentation_ |
 | 18 Apr | _student demo/presentation_ |
