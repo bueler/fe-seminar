@@ -2,7 +2,7 @@
 title: Finite element seminar
 ---
 
-This is the page of **Math 692 Graduate Seminar: Finite elements** in Spring 2024, in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
+Welcome to **Math 692 Graduate Seminar: Finite Elements** in Spring 2024!  We are in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
 
 * Course details:
   * Organizer/Instructor: [Ed Bueler](http://bueler.github.io/), [elbueler@alaska.edu](mailto:elbueler@alaska.edu).
