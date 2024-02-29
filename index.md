@@ -2,12 +2,12 @@
 title: Finite element seminar
 ---
 
-This is the page of **Math 692 Graduate Seminar: Finite elements** (CRN 35370) in Spring 2024, in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
+This is the page of **Math 692 Graduate Seminar: Finite elements** in Spring 2024, in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
 
 * Course details:
   * Organizer/Instructor: [Ed Bueler](http://bueler.github.io/), [elbueler@alaska.edu](mailto:elbueler@alaska.edu).
   * Time and place: Thursdays 3:30-4:30pm, Chapman 206.  Please email me for the Zoom link.  In-person is preferred if you are on campus!
-  * Credits: 1.0, but **non-credit attendance is welcomed**.
+  * Credits (CRN 35370): 1.0, but **non-credit attendance is welcomed**.
 
 * [Firedrake installation advice for the seminar.](installation)
 
