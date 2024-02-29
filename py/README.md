@@ -4,7 +4,7 @@ This directory contains a getting-started Python program
 
   * `start.py`
 
-and sub-directories for each week's examples.
+and sub-directories for examples after the first week.
 
 ## getting-started demo
 
