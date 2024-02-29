@@ -8,6 +8,8 @@ If the advice below is not enough, you might go to [Firedrake's installation deb
 
 <i>Thanks Stefano!</i>
 
+[Back to main page.](index)
+
 ### Firedrake on Google Colab
 
 1. Navigate to [fem-on-colab.github.io](https://fem-on-colab.github.io/) and choose the [Packages tab](https://fem-on-colab.github.io/packages.html)
