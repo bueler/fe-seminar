@@ -61,7 +61,7 @@ The basic scalar problems I have in mind are the [Poisson equation](https://en.w
 |  8 Feb | meshes & elements: Gmsh, P_k, Neumann | [slides](slides/8feb.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/8feb)
 | 15 Feb | Stokes equations for glaciers | [slides](https://github.com/bueler/stokes-ice-tutorial/blob/main/slides.pdf) | [code](https://github.com/bueler/stokes-ice-tutorial)
 | 22 Feb | CANCELLED |
-| 29 Feb | time-stepping |
+| 29 Feb | time-stepping | | [code](https://github.com/bueler/fe-seminar/tree/main/py/29feb)
 |  7 Mar | fast solvers for Poisson? |
 | 14 Mar | _Spring Break_ |
 | 21 Mar | obstacle problem? |
