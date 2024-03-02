@@ -43,5 +43,5 @@ The basic scalar problems I have in mind are the [Poisson equation](https://en.w
 | 28 Mar | advection-diffusion problems and DG? |
 |  4 Apr | _student demo/presentation_ |
 | 11 Apr | _student demo/presentation_ |
-| 18 Apr | _student demo/presentation_ |
+| 18 Apr | Michael Christoffersen: elasticity |
 | 25 Apr | _student demo/presentation_ |
