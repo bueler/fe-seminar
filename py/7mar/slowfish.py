@@ -7,6 +7,7 @@ M = [64,128,256,512,1024]
 #M = [8,]
 p = defaultp.copy()
 p.update({#'ksp_view_mat': ':A.m:ascii_matlab',
+          #'ksp_view': None,
           'ksp_type': 'preonly',
           'pc_type': 'lu'})
 

@@ -6,6 +6,7 @@ p = defaultp.copy()
 p.update({'ksp_type': 'cg',
           'pc_type': 'icc',
           #'ksp_monitor': None,
+          #'ksp_view': None,
           'ksp_converged_reason': None})
 
 print('solve time for m x m meshes with N dofs:')

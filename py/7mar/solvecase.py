@@ -2,7 +2,6 @@ from firedrake import *
 import time
 
 defaultp = {'snes_type': 'ksponly',
-            #'ksp_view': None,
             'ksp_rtol': 1.0e-10,
             'ksp_atol': 1.0e-14}
      
