@@ -9,7 +9,7 @@ Welcome to **Math 692 Graduate Seminar: Finite Elements** in Spring 2024!  We ar
   * Time and place: Thursdays 3:30-4:30pm, Chapman 206.  Please email me for the Zoom link.  In-person is preferred if you are on campus!
   * Credits (CRN 35370): 1.0, but **non-credit attendance is welcomed**.
 
-* [Firedrake installation advice for the seminar.](installation)
+* [Firedrake installation advice.](installation)
 
 * The [Github repo for this website](https://github.com/bueler/fe-seminar) has example codes in the `py/` directory.
 
@@ -22,9 +22,17 @@ Welcome to **Math 692 Graduate Seminar: Finite Elements** in Spring 2024!  We ar
 
 ## content
 
-My plan is to take the lead on this seminar, and do most of the lecturing at the start.  Then to lead workshop style, or to encourage student presentations, as the semester goes on.  My goal is to teach the practical finite element method, through actual computations using [Firedrake](https://www.firedrakeproject.org/), in the first 6 or so weeks or so, and then branch out.  I plan to mix in enough theory to make the code make sense.  The goal is definitely _not_ to prove systematically that the finite element method converges for certain problems.
+My plan is to take the lead on this seminar, and do lectures at the start.  Then to lead workshop style, encouraging student presentations, as much as possible.
 
-The basic scalar problems I have in mind are the [Poisson equation](https://en.wikipedia.org/wiki/Poisson%27s_equation), some [p-Laplacian](https://en.wikipedia.org/wiki/P-Laplacian) equations, and the [advection-diffusion equation](https://en.wikipedia.org/wiki/Convection%E2%80%93diffusion_equation).  Then we can also look at time-dependent problems, vector problems including the [Stokes equations for fluids](https://en.wikipedia.org/wiki/Stokes_flow), and even inequality-constrained problems like the [obstacle problem](https://en.wikipedia.org/wiki/Obstacle_problem).
+We will cover the practical finite element method, through actual computations using [Firedrake](https://www.firedrakeproject.org/).  I plan to mix in enough theory to make the code make sense.  The goal is definitely _not_ to prove systematically that the finite element method converges for certain problems.
+
+An introductory [partial differential equation](https://en.wikipedia.org/wiki/Partial_differential_equation) problem is (of course) the [Poisson equation](https://en.wikipedia.org/wiki/Poisson%27s_equation).  Then we can look at
+  * time-dependent problems like the [heat equation](https://en.wikipedia.org/wiki/Heat_equation),
+  * [advection-diffusion equations](https://en.wikipedia.org/wiki/Convection%E2%80%93diffusion_equation),
+  * vector problems including the [Stokes equations for fluids](https://en.wikipedia.org/wiki/Stokes_flow),
+  * nonlinear problems like the [p-Laplacian](https://en.wikipedia.org/wiki/P-Laplacian) equation,
+  * inequality-constrained problems like the [obstacle problem](https://en.wikipedia.org/wiki/Obstacle_problem),
+and any other models of interest to the participants.
 
 ## <a id="schedule"></a> topics (schedule)
 
@@ -37,7 +45,7 @@ The basic scalar problems I have in mind are the [Poisson equation](https://en.w
 | 15 Feb | Stokes equations for glaciers | [slides](https://github.com/bueler/stokes-ice-tutorial/blob/main/slides.pdf) | [code (external)](https://github.com/bueler/stokes-ice-tutorial)
 | 22 Feb | CANCELLED |
 | 29 Feb | time-stepping | [slides](slides/29feb.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/29feb)
-|  7 Mar | fast solvers for Poisson? |
+|  7 Mar | fast solvers for Poisson | | [code](https://github.com/bueler/fe-seminar/tree/main/py/7mar)
 | 14 Mar | _Spring Break_ |
 | 21 Mar | obstacle problem? |
 | 28 Mar | advection-diffusion problems and DG? |
