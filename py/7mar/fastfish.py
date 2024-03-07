@@ -2,6 +2,7 @@ from firedrake import *
 from solvecase import solvecase, defaultp
 
 levs = [4,5,6,7,8,9]  # coarse mesh is 4 x 4
+#levs = [4,5,6,7,8,9,10]  # WARNING memory?
 p = defaultp.copy()
 p.update({'ksp_type': 'cg',
           'pc_type': 'mg',
