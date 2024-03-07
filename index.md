@@ -45,7 +45,7 @@ and any other models of interest to the participants.
 | 15 Feb | Stokes equations for glaciers | [slides](https://github.com/bueler/stokes-ice-tutorial/blob/main/slides.pdf) | [code (external)](https://github.com/bueler/stokes-ice-tutorial)
 | 22 Feb | CANCELLED |
 | 29 Feb | time-stepping | [slides](slides/29feb.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/29feb)
-|  7 Mar | fast solvers for Poisson | | [code](https://github.com/bueler/fe-seminar/tree/main/py/7mar)
+|  7 Mar | fast solvers for Poisson | [slides](slides/7mar.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/7mar)
 | 14 Mar | _Spring Break_ |
 | 21 Mar | obstacle problem? |
 | 28 Mar | advection-diffusion problems and DG? |
