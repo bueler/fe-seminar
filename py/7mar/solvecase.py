@@ -1,8 +1,10 @@
 from firedrake import *
 import time
 
-defaultp = {#'ksp_view': None,
-            'snes_type': 'ksponly'}
+defaultp = {'snes_type': 'ksponly',
+            #'ksp_view': None,
+            'ksp_rtol': 1.0e-10,
+            'ksp_atol': 1.0e-14}
      
 def solvecase(m,mesh,p):
      H = FunctionSpace(mesh,'CG',1)
@@ -22,4 +24,4 @@ def solvecase(m,mesh,p):
 
      dura = t1 - t0
      N = (m+1)**2
-     print(f'  m = {m:5d},  N = {N:6.2e}:  {dura:7.2f} s; {1e6*dura/N:6.2f} mu s / N')
+     print(f'  m = {m:5d},  N = {N:6.1e}:  {dura:7.2f} s; {1e6*dura/N:6.2f} mu s / N')
