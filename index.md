@@ -50,6 +50,6 @@ and any other models of interest to the participants.
 | 21 Mar | obstacle problem? |
 | 28 Mar | advection-diffusion problems and DG? |
 |  4 Apr | _student demo/presentation_ |
-| 11 Apr | _student demo/presentation_ |
+| 11 Apr | Tara Shreve: porous media |
 | 18 Apr | Michael Christoffersen: elasticity |
 | 25 Apr | _student demo/presentation_ |
