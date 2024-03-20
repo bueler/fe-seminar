@@ -6,7 +6,7 @@
 #   2. conditional stability of explicit time-stepping
 #   3. writing time steps to a file
 # The problem and the time-stepping are further documented
-# in problem.pdf.
+# in slides/29feb.pdf.
 
 from firedrake import *
 
