@@ -48,24 +48,30 @@ par = {'snes_type': 'ksponly',
     #'ksp_monitor': None,
     'ksp_converged_reason': None}
 
-# choose between these two "-pc_type fieldsplit" solvers
+# choose between solvers by par.update(ONE OF THESE):
+#   monolithic direct
+directLU = {'pc_type': 'lu'}
+#   fieldsplit direct
 FSmulLU = {'pc_type': 'fieldsplit',
-    'pc_fieldsplit_type': 'multiplicative',
+    'pc_fieldsplit_type': 'multiplicative', # 'additive' will need 2 iterations
     'fieldsplit_0_ksp_type': 'preonly',
     'fieldsplit_0_pc_type': 'lu',
     'fieldsplit_1_ksp_type': 'preonly',
     'fieldsplit_1_pc_type': 'lu'}
+#   fieldsplit algebraic multigrid  (scalable multigrid-preconditioned iterative)
 FSaddMG = {'pc_type': 'fieldsplit',
-    'pc_fieldsplit_type': 'additive',
+    'pc_fieldsplit_type': 'additive', # 'multiplicative' will need fewer iterations
     'fieldsplit_0_ksp_type': 'preonly',
     'fieldsplit_0_pc_type': 'gamg',
     'fieldsplit_1_ksp_type': 'preonly',
     'fieldsplit_1_pc_type': 'gamg'}
+par.update(directLU)
+#par.update(FSmulLU)
+#par.update(FSaddMG)
 
-par.update(FSmulLU)    # use direct solver
-#par.update(FSaddMG)   # use scalable multigrid-preconditioned iterative solver
-
-solve(F == 0, w, bcs=BCs, solver_parameters = par)
+solve(F == 0, w, bcs=BCs,
+      options_prefix='s', # add -s_xxx_yyy options at runtime
+      solver_parameters = par)
 
 v = w.subfunctions[0]
 v.rename('v_h(x,y) moment')
