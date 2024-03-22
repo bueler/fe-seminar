@@ -52,4 +52,4 @@ and any other models of interest to the participants.
 |  4 Apr | _student demo/presentation_ |  <!-- advection-diffusion problems and DG? -->
 | 11 Apr | Tara Shreve: porous media |
 | 18 Apr | Michael Christoffersen: elasticity |
-| 25 Apr | _student demo/presentation_ |
+| 25 Apr | Austin Smith: waves |
