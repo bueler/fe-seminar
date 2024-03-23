@@ -1,4 +1,2 @@
-/*.pvd
-/*.vtu
-/*.pvtu
 result*
+__pycache__/
