@@ -48,7 +48,7 @@ and any other models of interest to the participants.
 |  7 Mar | fast solvers for Poisson | [slides](slides/7mar.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/7mar)
 | 14 Mar | _Spring Break_ |
 | 21 Mar | nonlinear problems and systems | [slides](slides/21mar-bratu.pdf) [slides](slides/21mar-plate.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/21mar)
-| 28 Mar | Stefano Fochesatto: obstacle problem |
+| 28 Mar | Stefano Fochesatto: obstacle problem | [slides](slides/28mar-sfochesatto.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/28mar)
 |  4 Apr | _student demo/presentation_ |  <!-- advection-diffusion problems and DG? -->
 | 11 Apr | Tara Shreve: porous media |
 | 18 Apr | Michael Christoffersen: elasticity |
