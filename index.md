@@ -30,7 +30,7 @@ An introductory [partial differential equation](https://en.wikipedia.org/wiki/Pa
   * time-dependent problems like the [heat equation](https://en.wikipedia.org/wiki/Heat_equation),
   * [advection-diffusion equations](https://en.wikipedia.org/wiki/Convection%E2%80%93diffusion_equation),
   * vector problems including the [Stokes equations for fluids](https://en.wikipedia.org/wiki/Stokes_flow),
-  * nonlinear problems like the [p-Laplacian](https://en.wikipedia.org/wiki/P-Laplacian) equation,
+  * nonlinear problems like the [Liouville-Bratu equation](https://en.wikipedia.org/wiki/Liouville%E2%80%93Bratu%E2%80%93Gelfand_equation),
   * inequality-constrained problems like the [obstacle problem](https://en.wikipedia.org/wiki/Obstacle_problem),
 and any other models of interest to the participants.
 
