@@ -42,12 +42,12 @@ and any other models of interest to the participants.
 | 25 Jan | Poisson equation examples, Paraview | [slide](py/25jan/poisson.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/25jan)
 |  1 Feb | verification, assembly, errors | [slides](slides/1feb.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/1feb)
 |  8 Feb | meshes & elements: Gmsh, P_k, Neumann | [slides](slides/8feb.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/8feb)
-| 15 Feb | Stokes equations for glaciers | [slides](https://github.com/bueler/stokes-ice-tutorial/blob/main/slides.pdf) | [code (external)](https://github.com/bueler/stokes-ice-tutorial)
+| 15 Feb | Stokes equations for glaciers | [slides (ext)](https://github.com/bueler/stokes-ice-tutorial/blob/main/slides.pdf) | [code (ext)](https://github.com/bueler/stokes-ice-tutorial)
 | 22 Feb | CANCELLED |
 | 29 Feb | time-stepping | [slides](slides/29feb.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/29feb)
 |  7 Mar | fast solvers for Poisson | [slides](slides/7mar.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/7mar)
 | 14 Mar | _Spring Break_ |
-| 21 Mar | nonlinear problems and systems | [slides](slides/21mar-bratu.pdf) [slides](slides/21mar-plate.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/21mar)
+| 21 Mar | nonlinear problems and systems | [slides](slides/21mar-bratu.pdf) <cr> [slides](slides/21mar-plate.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/21mar)
 | 28 Mar | Stefano Fochesatto: obstacle problem | [slides](slides/28mar-sfochesatto.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/28mar)
 |  4 Apr | _student demo/presentation_ |  <!-- advection-diffusion problems and DG? -->
 | 11 Apr | Tara Shreve: porous media |
