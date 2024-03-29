@@ -1,6 +1,6 @@
 # this getting-started code solves no differential equation problem
-# it creats a mesh, computes a function f(x,y) on it,
-# then it saves the result to a .pvd and plots to a figure
+# it creates a mesh, computes a function f(x,y) on it,
+# then it saves the result to a .pvd, and plots to a figure
 
 from firedrake import *
 mesh = UnitSquareMesh(10, 10)

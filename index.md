@@ -38,7 +38,7 @@ and any other models of interest to the participants.
 
 | Date   | Topic | Slides | Code in repo |
 |--------|-------|--------|--------------|
-| 18 Jan | laptop day: install Firedrake, start Poisson | [slides](slides/18jan.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/)
+| 18 Jan | laptop day: install Firedrake, start Poisson | [slides](slides/18jan.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/18jan)
 | 25 Jan | Poisson equation examples, Paraview | [slide](py/25jan/poisson.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/25jan)
 |  1 Feb | verification, assembly, errors | [slides](slides/1feb.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/1feb)
 |  8 Feb | meshes & elements: Gmsh, P_k, Neumann | [slides](slides/8feb.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/8feb)
