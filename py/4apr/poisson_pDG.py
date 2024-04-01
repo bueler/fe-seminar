@@ -37,4 +37,17 @@ print(f'  u integral       = {uint:10.3e}')
 print(f'  f integral       = {fint:10.3e}')
 print('  ... no obvious way to measure conservation success/failure')
 
+S = FunctionSpace(mesh, 'RT', 1)
+sigma = Function(S)
+omega = TestFunction(S)
+n = FacetNormal(mesh)
+Fsigma = dot(sigma,omega) * dx - u * div(omega) * dx + u * dot(omega,n) * ds((1,2))
+bc = DirichletBC(S, as_vector([0.0,0.0]), (1,2))
+solve(Fsigma == 0, sigma, bcs=[bc,])
+#solve(Fsigma == 0, sigma)
+oflux = assemble(- dot(sigma,n) * ds)
+imbalance = - oflux - fint
+print(f'  flux out         = {oflux:10.3e}')
+print(f'  imbalance        = {imbalance:10.3e}')
+
 VTKFile("result.pvd").write(f,u)
