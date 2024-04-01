@@ -4,14 +4,14 @@ from firedrake.output import VTKFile
 m = 20
 mesh = UnitSquareMesh(m, m)
 
-k = 1
-print(f'{m} x {m} mesh mixed RT{k} x DG{k-1}:')
-# note: some stable choices are
+# note: some stable element choices are
 #   RT_k x DG_{k-1}   for k = 1,2,3,...
 #   BDM_k x DG_{k-1}  for k = 1,2,3,...
+k = 1
 S = FunctionSpace(mesh, 'RT', k)
 H = FunctionSpace(mesh, 'DG', k-1)
 W = S * H
+print(f'{m} x {m} mesh mixed RT{k} x DG{k-1}:')
 
 w = Function(W)
 sigma, u = split(w)
@@ -22,7 +22,7 @@ f = Function(H).interpolate(5 * x + 7 * y - 1.11111)
 f.rename('f')
 
 # mixed weak form
-# Dirichlet condition on u for ids 3,4 is now "natural"
+# note Dirichlet condition on u for ids 3,4 is now "natural"
 n = FacetNormal(mesh)
 F = dot(sigma,omega) * dx - u * div(omega) * dx + u * dot(omega,n) * ds((1,2)) \
     + div(sigma) * v * dx - f * v * dx
