@@ -2,7 +2,7 @@ from firedrake import *
 from firedrake.output import VTKFile
 
 m = 20
-mesh = UnitSquareMesh(m, m)
+mesh = UnitSquareMesh(m, m, quadrilateral=True)
 print(f'{m} x {m} mesh DG0:')
 
 H = FunctionSpace(mesh, 'DG', 0)
