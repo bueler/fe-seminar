@@ -4,7 +4,7 @@ from firedrake.output import VTKFile
 m = 20
 mesh = UnitSquareMesh(m, m)
 
-# note: some stable element choices are
+# note: some stable triangular element choices are
 #   RT_k x DG_{k-1}   for k = 1,2,3,...
 #   BDM_k x DG_{k-1}  for k = 1,2,3,...
 k = 1
@@ -24,10 +24,12 @@ f.rename('f')
 # mixed weak form
 # note Dirichlet condition on u for ids 3,4 is now "natural"
 n = FacetNormal(mesh)
-F = dot(sigma,omega) * dx - u * div(omega) * dx + u * dot(omega,n) * ds((1,2)) \
+F = dot(sigma,omega) * dx - u * div(omega) * dx \
     + div(sigma) * v * dx - f * v * dx
 
-# Neumann conditions on u for ids 1,2 is now Dirichlet on sigma = - grad(u)
+# Neumann conditions on u for ids 1,2 is now Dirichlet on normal
+# component of sigma = - grad(u), but we must set both components
+# apparently
 bc = DirichletBC(W.sub(0), as_vector([0.0,0.0]), (1,2))
 
 solve(F == 0, w, bcs=[bc,],
