@@ -1,14 +1,20 @@
 from firedrake import *
 from firedrake.output import VTKFile
 
+# for quadrilateral mesh replace as follows:
+#   mesh = UnitSquareMesh(m, m, quadrilateral=True)
+#   'RT','BDM' --> 'RTCF','BDMCF'
+#   'DG' --> 'DQ'
+
 m = 20
 mesh = UnitSquareMesh(m, m)
 
 # note: some stable triangular element choices are
 #   RT_k x DG_{k-1}   for k = 1,2,3,...
 #   BDM_k x DG_{k-1}  for k = 1,2,3,...
+# note that 'DG'-->'CG' *does* give global conservation here
 k = 1
-S = FunctionSpace(mesh, 'RT', k)
+S = FunctionSpace(mesh, 'RT', k)    # or 'BDM'
 H = FunctionSpace(mesh, 'DG', k-1)
 W = S * H
 print(f'{m} x {m} mesh mixed RT{k} x DG{k-1}:')
@@ -24,7 +30,7 @@ f.rename('f')
 # mixed weak form
 # note Dirichlet condition on u for ids 3,4 is now "natural"
 n = FacetNormal(mesh)
-F = dot(sigma,omega) * dx - u * div(omega) * dx \
+F = dot(sigma, omega) * dx - u * div(omega) * dx \
     + div(sigma) * v * dx - f * v * dx
 
 # Neumann conditions on u for ids 1,2 is now Dirichlet on normal
@@ -42,15 +48,15 @@ sigma, u = w.subfunctions
 sigma.rename('sigma')
 u.rename('u')
 
-# measure conservation failure (is success!)
+# measure conservation success!
 uint = assemble(u * dx)
 fint = assemble(f * dx)
 n = FacetNormal(mesh)
 oflux = assemble(- dot(sigma,n) * ds)
 imbalance = - oflux - fint
-print(f'  u integral       = {uint:10.3e}')
-print(f'  f integral       = {fint:10.3e}')
-print(f'  flux out         = {oflux:10.3e}')
-print(f'  imbalance        = {imbalance:10.3e}')
+print(f'  u integral       = {uint:13.6e}')
+print(f'  f integral       = {fint:13.6e}')
+print(f'  flux out         = {oflux:13.6e}')
+print(f'  imbalance        = {imbalance:13.6e}')
 
 VTKFile("result.pvd").write(f,sigma,u)

@@ -2,10 +2,11 @@ from firedrake import *
 from firedrake.output import VTKFile
 
 m = 20
-mesh = UnitSquareMesh(m, m, quadrilateral=True)
-print(f'{m} x {m} mesh DG0:')
+mesh = UnitSquareMesh(m, m)
 
 H = FunctionSpace(mesh, 'DG', 0)
+print(f'{m} x {m} mesh DG0:')
+
 u = Function(H, name='u')
 v = TestFunction(H)
 
@@ -33,8 +34,8 @@ solve(F == 0, u, bcs=None,
 #   oflux = assemble(dot(grad(u),n) * ds)
 uint = assemble(u * dx)
 fint = assemble(f * dx)
-print(f'  u integral       = {uint:10.3e}')
-print(f'  f integral       = {fint:10.3e}')
+print(f'  u integral       = {uint:13.6e}')
+print(f'  f integral       = {fint:13.6e}')
 print('  ... no obvious way to measure conservation success/failure')
 
 VTKFile("result.pvd").write(f,u)

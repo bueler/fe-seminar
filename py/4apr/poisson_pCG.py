@@ -3,9 +3,11 @@ from firedrake.output import VTKFile
 
 m = 20
 mesh = UnitSquareMesh(m, m)
-print(f'{m} x {m} mesh CG1:')
 
-H = FunctionSpace(mesh,'CG',1)
+k = 1
+H = FunctionSpace(mesh, 'CG', k)
+print(f'{m} x {m} mesh CG{k}:')
+
 u = Function(H, name='u')
 v = TestFunction(H)
 
@@ -13,7 +15,7 @@ x, y = SpatialCoordinate(mesh)
 f = Function(H).interpolate(5 * x + 7 * y - 1.11111)
 f.rename('f')
 
-F = ( dot(grad(u),grad(v)) - f * v ) * dx
+F = ( dot(grad(u), grad(v)) - f * v ) * dx
 
 # boundary indices on square:                -4-
 #   zero Neumann   on sides 1,2            1|   |2
@@ -32,9 +34,9 @@ fint = assemble(f * dx)
 n = FacetNormal(mesh)
 oflux = assemble(dot(grad(u),n) * ds)
 imbalance = - oflux - fint
-print(f'  u integral       = {uint:10.3e}')
-print(f'  f integral       = {fint:10.3e}')
-print(f'  flux out         = {oflux:10.3e}')
-print(f'  imbalance        = {imbalance:10.3e}')
+print(f'  u integral       = {uint:13.6e}')
+print(f'  f integral       = {fint:13.6e}')
+print(f'  flux out         = {oflux:13.6e}')
+print(f'  imbalance        = {imbalance:13.6e}')
 
 VTKFile("result.pvd").write(f,u)
