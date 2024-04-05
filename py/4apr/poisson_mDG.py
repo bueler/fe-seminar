@@ -29,7 +29,6 @@ f.rename('f')
 
 # mixed weak form
 # note Dirichlet condition on u for ids 3,4 is now "natural"
-n = FacetNormal(mesh)
 F = dot(sigma, omega) * dx - u * div(omega) * dx \
     + div(sigma) * v * dx - f * v * dx
 
