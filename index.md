@@ -51,5 +51,5 @@ and any other models of interest to the participants.
 | 28 Mar | Stefano Fochesatto: obstacle problem | [slides](slides/28mar-sfochesatto.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/28mar)
 |  4 Apr | conservation and DG | [slides](slides/4apr.pdf) <br> [FE table](http://z.umn.edu/femtable) | [code](https://github.com/bueler/fe-seminar/tree/main/py/4apr)
 | 11 Apr | Tara Shreve: porous media | [slides (ext)](https://github.com/bueler/porous-drake/blob/main/slides/V00_Shreve_04112024_FE.pdf) | [code (ext)](https://github.com/bueler/porous-drake)
-| 18 Apr | Michael Christoffersen: elasticity |
+| 18 Apr | Michael Christoffersen: linear elasticity | [slides](slides/18apr.pdf) | [code](https://github.com/bueler/fe-seminar/tree/main/py/18apr)
 | 25 Apr | Austin Smith: waves |
